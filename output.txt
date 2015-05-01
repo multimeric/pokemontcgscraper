@@ -1,0 +1,1228 @@
+
+> pokemon-tcg-scraper@0.0.1 start C:\Users\Miguel\Desktop\Projects\pokemontcgscraper
+> iojs index.js
+
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW01/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW01.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW02/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW02.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW03/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW03.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW04/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW04.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW05/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW05.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW06/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW06.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW07/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW07.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW08/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW08.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW09/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW09.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW10/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW100/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW100.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW101/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW101.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW11/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW12/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW13/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW14/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW15/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW16/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW17/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW18/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW19/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW20/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW21/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW21.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW22/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW22.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/2?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW23/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW24/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW25/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW26/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW27/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW28/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW29/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW30/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW31/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW32/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW33/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW33.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW34/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW34.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/3?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW35/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW36/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW36.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW37/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW37.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW38/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW39/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW40/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW40.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW41/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW41.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW42/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW42.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW43/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW43.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW44/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW44.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW45/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW45.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW46/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW46.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/4?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW47/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW47.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW48/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW48.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW49/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW49.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW50/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW50.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW51/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW51.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW52/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW52.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW53/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW53.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW54/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW54.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW55/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW55.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW56/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW56.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW57/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW57.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW58/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW58.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/5?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW59/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW59.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW60/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW60.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW61/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW61.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW62/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW62.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW63/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW63.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW64/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW64.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW65/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW65.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW66/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW66.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW67/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW67.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW68/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW68.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW69/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW69.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW70/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW70.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/6?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW71/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW71.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW72/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW72.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW73/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW73.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW74/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW74.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW75/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW75.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW76/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW76.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW79/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW79.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW80/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW80.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW81/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW81.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW82/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW82.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW83/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW83.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW84/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW84.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/7?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW85/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW85.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW86/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW86.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW87/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW87.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW88/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW88.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW89/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW89.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW90/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW90.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW91/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW91.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW92/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW92.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW93/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW93.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW94/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW94.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW95/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW95.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW96/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW96.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/8?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW97/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW97.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW98/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW98.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW99/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW99.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY01/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY01.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY02/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY02.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY03/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY03.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY04/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY04.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY05/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY05.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY06/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY06.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY07/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY07.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY08/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY08.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY09/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY09.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/9?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY10/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY11/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY12/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY13/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY14/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY15/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY16/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY17/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY18/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY19/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY20/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY21/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY21.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/10?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY22/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY23/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY24/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY25/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY26/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY27/',
+  image: 'http://assets1.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY28/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY29/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY30/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY31/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY32/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xyp/XY33/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XYP/XYP_EN_XY33.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/11?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/1/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_1.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/2/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_2.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/3/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_3.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/4/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_4.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/5/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_5.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/6/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_6.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/7/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_7.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/8/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_8.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/9/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_9.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/10/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/11/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/12/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_12.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/12?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/13/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/14/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/15/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/16/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/17/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/18/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/19/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/20/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/21/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_21.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/22/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/23/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/24/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_24.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/13?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/25/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/26/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/27/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/28/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/29/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/30/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/31/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/32/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/33/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_33.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/34/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_34.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/35/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/36/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_36.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/14?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/37/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_37.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/38/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy0/39/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY0/XY0_EN_39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/1/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_1.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/2/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_2.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/3/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_3.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/4/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_4.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/5/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_5.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/6/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_6.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/7/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_7.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/8/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_8.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/9/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_9.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/15?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/10/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/11/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/12/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/13/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/14/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/15/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/16/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/17/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/18/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/19/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/20/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/21/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_21.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/16?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/22/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/23/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/24/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/25/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/26/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/27/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/28/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/29/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/30/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/31/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/32/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/33/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_33.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/17?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/34/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_34.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/35/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/36/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_36.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/37/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_37.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/38/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/39/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/40/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_40.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/41/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_41.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/42/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_42.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/43/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_43.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/44/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_44.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/45/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_45.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/18?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/46/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_46.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/47/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_47.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/48/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_48.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/49/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_49.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/50/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_50.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/51/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_51.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/52/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_52.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/53/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_53.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/54/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_54.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/55/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_55.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/56/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_56.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/57/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_57.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/19?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/58/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_58.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/59/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_59.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/60/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_60.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/61/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_61.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/62/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_62.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/63/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_63.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/64/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_64.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/65/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_65.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/66/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_66.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/67/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_67.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/68/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_68.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/69/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_69.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/20?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/70/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_70.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/71/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_71.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/72/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_72.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/73/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_73.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/74/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_74.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/75/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_75.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/76/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_76.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/77/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_77.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/78/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_78.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/79/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_79.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/80/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_80.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/81/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_81.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/21?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/82/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_82.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/83/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_83.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/84/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_84.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/85/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_85.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/86/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_86.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/87/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_87.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/88/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_88.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/89/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_89.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/90/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_90.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/91/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_91.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/92/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_92.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/93/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_93.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/22?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/94/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_94.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/95/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_95.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/96/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_96.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/97/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_97.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/98/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_98.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/99/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_99.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/100/',
+  image: 'http://assets2.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_100.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/101/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_101.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/102/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_102.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/103/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_103.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/104/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_104.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/105/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_105.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/23?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/106/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_106.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/107/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_107.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/108/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_108.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/109/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_109.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/110/',
+  image: 'http://assets3.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_110.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/111/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_111.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/112/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_112.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/113/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_113.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/114/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_114.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/115/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_115.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/116/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_116.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/117/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_117.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/24?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/118/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_118.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/119/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_119.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/120/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_120.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/121/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_121.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/122/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_122.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/123/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_123.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/124/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_124.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/125/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_125.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/126/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_126.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/127/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_127.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/128/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_128.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/129/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_129.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/25?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/130/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_130.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/131/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_131.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/132/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_132.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/133/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_133.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/134/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_134.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/135/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_135.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/136/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_136.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/137/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_137.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/138/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_138.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/139/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_139.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/140/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_140.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/141/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_141.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/26?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/142/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_142.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/143/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_143.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/144/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_144.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/145/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_145.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/146/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY1/XY1_EN_146.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/1/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_1.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/2/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_2.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/3/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_3.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/4/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_4.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/5/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_5.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/6/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_6.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/7/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_7.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/27?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/8/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_8.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/9/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_9.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/10/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/11/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/12/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/13/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/14/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/15/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/16/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/17/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/18/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/19/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_19.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/28?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/20/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/21/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_21.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/22/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/23/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/24/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/25/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/26/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/27/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/28/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/29/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/30/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/31/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_31.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/29?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/32/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/33/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_33.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/34/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_34.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/35/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/36/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_36.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/37/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_37.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/38/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/39/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/40/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_40.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/41/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_41.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/42/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_42.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/43/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_43.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/30?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/44/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_44.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/45/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_45.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/46/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_46.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/47/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_47.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/48/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_48.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/49/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_49.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/50/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_50.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/51/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_51.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/52/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_52.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/53/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_53.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/54/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_54.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/55/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_55.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/31?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/56/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_56.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/57/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_57.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/58/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_58.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/59/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_59.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/60/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_60.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/61/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_61.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/62/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_62.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/63/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_63.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/64/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_64.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/65/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_65.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/66/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_66.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/67/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_67.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/32?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/68/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_68.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/69/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_69.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/70/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_70.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/71/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_71.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/72/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_72.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/73/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_73.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/74/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_74.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/75/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_75.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/76/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_76.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/77/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_77.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/78/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_78.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/79/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_79.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/33?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/80/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_80.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/81/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_81.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/82/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_82.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/83/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_83.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/84/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_84.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/85/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_85.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/86/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_86.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/87/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_87.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/88/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_88.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/89/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_89.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/90/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_90.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/91/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_91.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/34?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/92/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_92.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/93/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_93.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/94/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_94.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/95/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_95.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/96/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_96.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/97/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_97.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/98/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_98.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/99/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_99.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/100/',
+  image: 'http://assets4.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_100.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/101/',
+  image: 'http://assets5.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_101.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/102/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_102.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/103/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_103.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/35?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/104/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_104.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/105/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_105.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/106/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_106.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/107/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_107.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/108/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_108.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy2/109/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY2/XY2_EN_109.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/1/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_1.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/2/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_2.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/3/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_3.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/4/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_4.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/5/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_5.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/6/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_6.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/36?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/7/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_7.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/8/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_8.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/9/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_9.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/10/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/11/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/12/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/13/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_13.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/14/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/15/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/16/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/17/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/18/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_18.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/37?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/19/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/20/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/21/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_21.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/22/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/23/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/24/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/25/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_25.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/26/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/27/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/28/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/29/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/30/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_30.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/38?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/31/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/32/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/33/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_33.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/34/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_34.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/35/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/36/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_36.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/37/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_37.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/38/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/39/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/40/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_40.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/41/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_41.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/42/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_42.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/39?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/43/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_43.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/44/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_44.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/45/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_45.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/46/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_46.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/47/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_47.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/48/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_48.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/49/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_49.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/50/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_50.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/51/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_51.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/52/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_52.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/53/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_53.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/54/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_54.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/40?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/55/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_55.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/56/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_56.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/57/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_57.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/58/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_58.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/59/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_59.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/60/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_60.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/61/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_61.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/62/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_62.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/63/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_63.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/64/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_64.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/65/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_65.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/66/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_66.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/41?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/67/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_67.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/68/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_68.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/69/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_69.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/70/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_70.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/71/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_71.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/72/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_72.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/73/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_73.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/74/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_74.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/75/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_75.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/76/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_76.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/77/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_77.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/78/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_78.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/42?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/79/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_79.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/80/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_80.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/81/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_81.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/82/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_82.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/83/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_83.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/84/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_84.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/85/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_85.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/86/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_86.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/87/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_87.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/88/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_88.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/89/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_89.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/90/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_90.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/43?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/91/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_91.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/92/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_92.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/93/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_93.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/94/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_94.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/95/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_95.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/96/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_96.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/97/',
+  image: 'http://assets23.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_97.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/98/',
+  image: 'http://assets24.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_98.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/99/',
+  image: 'http://assets25.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_99.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/100/',
+  image: 'http://assets6.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_100.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/101/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_101.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/102/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_102.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/44?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/103/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_103.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/104/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_104.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/105/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_105.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/106/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_106.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/107/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_107.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/108/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_108.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/109/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_109.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/110/',
+  image: 'http://assets7.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_110.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/111/',
+  image: 'http://assets8.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_111.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/112/',
+  image: 'http://assets9.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_112.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy3/113/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY3/XY3_EN_113.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/1/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_1.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/45?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/2/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_2.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/3/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_3.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/4/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_4.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/5/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_5.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/6/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_6.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/7/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_7.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/8/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_8.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/9/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_9.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/10/',
+  image: 'http://assets10.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_10.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/11/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_11.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/12/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_12.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/13/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_13.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/46?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/14/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_14.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/15/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_15.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/16/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_16.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/17/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_17.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/18/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_18.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/19/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_19.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/20/',
+  image: 'http://assets11.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_20.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/21/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_21.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/22/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_22.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/23/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_23.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/24/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_24.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/25/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_25.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/47?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/26/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_26.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/27/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_27.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/28/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_28.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/29/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_29.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/30/',
+  image: 'http://assets12.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_30.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/31/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_31.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/32/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_32.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/33/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_33.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/34/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_34.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/35/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_35.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/36/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_36.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/37/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_37.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/48?format=expanded
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/38/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_38.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/39/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_39.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/40/',
+  image: 'http://assets13.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_40.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/41/',
+  image: 'http://assets14.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_41.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/42/',
+  image: 'http://assets15.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_42.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/43/',
+  image: 'http://assets16.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_43.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/44/',
+  image: 'http://assets17.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_44.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/45/',
+  image: 'http://assets18.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_45.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/46/',
+  image: 'http://assets19.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_46.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/47/',
+  image: 'http://assets20.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_47.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/48/',
+  image: 'http://assets21.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_48.png' }
+{ url: 'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy4/49/',
+  image: 'http://assets22.pokemon.com/assets/cms2/img/cards/web/XY4/XY4_EN_49.png' }
+URL ishttp://www.pokemon.com/us/pokemon-tcg/pokemon-cards/49?format=expanded

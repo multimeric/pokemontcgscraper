@@ -1,0 +1,20 @@
+{
+  "name": "pokemon-tcg-scraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "iojs index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/TMiguelT/pokemontcgscraper"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request-promise": "^0.4.2"
+  }
+}
