@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start": "iojs index.js",
+    "start": "iojs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.25",
     "cheerio": "^0.19.0",
-    "request-promise": "^0.4.2"
+    "request-promise": "^0.4.2",
+    "trim": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
   }
 }

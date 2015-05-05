@@ -1,61 +1,205 @@
 "use strict";
 
 //Constants
-const SCRAPE_URL = "http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/?format=expanded";
+var SCRAPE_URL = "http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/?";
 
 //Requires
-let request = require('request-promise');
-let cheerio = require('cheerio');
-let co = require('co');
-let url = require('url');
-
-//Globals
-let cards = [];
-let numPages = 0;
+var request = require('request-promise');
+var cheerio = require('cheerio');
+var Promise = require('bluebird');
+var co = Promise.coroutine;
+var trim = require('trim');
+var url = require('url');
+var qs = require('querystring');
 
 /**
- * Scrapes the page at the given URL, and returns the jQuery object for further processing
+ * Scrapes the page at the given URL, and returns an object {cards, numPages} where cards is an array of card objects
+ * and numPages is the number of pages returned from this query
  */
-function* scrapeSearchPage(pageUrl){
-	let response = yield request(pageUrl);
-	let $ = cheerio.load(response);
-	$("#cardResults li").each(function(i, el){
-		let $card = $(el);
-		let card = {
-			url: url.resolve(SCRAPE_URL, card.find("a").attr("href")),
-			image: url.resolve(SCRAPE_URL, card.find("img").attr("src"))
-		};
-		
-		
-		cards.push(card);
-		console.log(cards[cards.length - 1]);
-	});
-	
-	return $;
+function scrapeSearchPage(pageUrl) {
+
+    return co(function *() {
+
+        var cards = [];
+
+        //Load the HTML page
+        var $ = cheerio.load(yield request(pageUrl));
+
+        //For each card, scrape some data
+        $("#cardResults li").each(co(function* (i, el) {
+            var $card = $(el);
+
+            //Just scrape the database URL and the image for now
+            var card = {
+                url: url.resolve(SCRAPE_URL, $card.find("a").attr("href")),
+                image: url.resolve(SCRAPE_URL, $card.find("img").attr("src"))
+            };
+
+            cards.push(card);
+        }));
+
+        //Work out how many pages in total there are
+        var totalText = $('#cards-load-more span').text();
+        var numPages = parseInt(/\d of (\d+)/.exec(totalText)[1]);
+
+        return {
+            numPages: numPages,
+            cards: cards
+        };
+
+    })();
 }
 
-function* scrapeCardPage(card, pageUrl)
-{
-	let $ = cheerio.load(yield request(card.url));
-	
-	$header = $(".card-description");
-	card.name = $header.find("h1").text();
-	
-	$basicInfo = $.find(".card-basic-info");
-	card.type = $basicInfo.find(".card-type");
-	card.hp = $basicInfo.find(".right");
-	
-	$abilities = $basicInfo.find("pokemon-abilities ability");
+
+/**
+ * Calls the callback function on each energy
+ * @param $el the jQuery element to start scraping from
+ * @param func called with (energy, $), where energy is the energy type (Fire etc.) and $ is a jQuery element for this energy
+ */
+function scrapeEnergies(el, $, func) {
+    var $el = $(el);
+
+    $el.find("li").each(function (i, val) {
+        var $val = $(val);
+        var type = $val.attr("title");
+        func(type, $val);
+    });
 }
 
-co(function *(){
-	let $ = yield scrapePage(SCRAPE_URL);
-	let totalText = $('#cards-load-more span').text();
-	let numPages = /\d of (\d+)/.exec(totalText)[1];
-	
-	for (let i = 2; i <= numPages; i++){
-		let scrapeURL = url.resolve(SCRAPE_URL, i.toString()) + "?format=expanded";
-		yield scrapePage(scrapeURL)
-		console.log("URL is" + scrapeURL);
-	}
-});
+function scrapeCard(url) {
+
+    return co(function *() {
+        var card = {};
+
+        //Load the HTML page from the URL
+        var $ = cheerio.load(yield request(url));
+
+        //Scrape the card name
+        var $header = $(".card-description");
+        card.name = $header.find("h1").text();
+
+        //Scrape the type and HP
+        var $basicInfo = $(".card-basic-info");
+        card.type = trim($basicInfo.find(".card-type").text());
+
+        //If it's a trainer or anything non-pokemon
+        if (card.type.indexOf("Trainer") != -1 || card.type.indexOf("Energy") != -1) {
+            card.text = trim($(".pokemon-abilities").text());
+            return;
+        }
+
+        var hp_text = $basicInfo.find(".card-hp").text();
+        card.hp = parseInt(/\d+/.exec(hp_text)[0]);
+
+        //Scrape each ability sequentially
+        card.abilities = [];
+        var $abilities = $(".pokemon-abilities .ability");
+        $abilities.each(function (i, el) {
+            var ability = {
+                cost: []
+            };
+
+            //Scrape the cost
+            var $ability = $(el);
+            var $energies = $ability.find("ul.left li");
+            $energies.each(function (i, energy) {
+                var $energy = $(energy);
+                ability.cost.push($energy.attr("title"));
+            });
+
+            //Scrape the ability name
+            var $name = $ability.find("h4.left");
+            ability.name = $name.text();
+
+            //Scrape the ability damage
+            var $damage = $ability.find("span.right.plus");
+            ability.damage = $damage.text();
+
+            //Scrape the ability text
+            var $text = $ability.find(">p");
+            ability.text = $text.text();
+
+            //Add it to the card
+            card.abilities.push(ability);
+        });
+
+        //Scrape the other stats
+        var $stats = $(".pokemon-stats");
+
+        card.weaknesses = [];
+        var $weakness = $stats.find(".stat:contains(Weakness)");
+        scrapeEnergies($weakness.find("ul.card-energies"), $, function (type, $) {
+            card.weaknesses.push({
+                type: type,
+                value: trim($.text())
+            });
+        });
+
+        card.resistances = [];
+        var $resistance = $stats.find(".stat:contains(Resistance)");
+        scrapeEnergies($resistance.find("ul.card-energies"), $, function (type, $) {
+            card.resistances.push({
+                type: type,
+                value: trim($.text())
+            });
+        });
+
+        var $retreat = $stats.find(":contains(Retreat Cost)");
+        card.retreatCost = $retreat.find(".energy").length;
+
+        return card;
+    })();
+}
+
+/**
+ * Scrapes the Pokemon TCG database
+ * @param query The query string to use for the search.
+ * @param scrapeDetails True if you want to return the card data, false if you just want the URLs
+ * @returns {*}
+ */
+function scrapeAll(query, scrapeDetails) {
+
+    return co(function *() {
+        //By default, scrape the card details
+        scrapeDetails = scrapeDetails === undefined ? true : scrapeDetails;
+
+        //Load the HTML page
+        process.stdout.write("Scraping initial page...");
+        var scrapeURL = SCRAPE_URL + qs.stringify(query);
+        var search = yield scrapeSearchPage(scrapeURL);
+        process.stdout.write("Done!\n");
+
+        //Recurring variables
+        var cards = search.cards;
+        var i;
+
+        //Scrape all of the pages sequentially;
+        process.stdout.write('Scraping card URLs...\n');
+        for (i = 2; i <= search.numPages; i++) {
+            process.stdout.write('   Scraping page ' + i + '...');
+            var scrapeURL = url.resolve(SCRAPE_URL, i.toString()) + qs.stringify(query);
+            var results = yield scrapeSearchPage(scrapeURL);
+            cards = cards.concat(results.cards);
+            process.stdout.write('Done!\n');
+        }
+
+        //Scrape all of the cards sequentially if requested
+        if (scrapeDetails) {
+            process.stdout.write('Scraping card details...\n');
+            for (i = 0; i < cards.length; i++) {
+                var card = cards[i];
+                process.stdout.write('   Scraping card ' + card.url);
+                yield scrapeCard(card);
+                process.stdout.write('Done!\n')
+            }
+        }
+
+        return cards;
+    })();
+}
+
+module.exports = {
+    scrapeAll: scrapeAll,
+    scrapeCard: scrapeCard,
+    scrapeSearchPage: scrapeSearchPage
+};
