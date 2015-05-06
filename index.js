@@ -9,8 +9,9 @@ var cheerio = require('cheerio');
 var Promise = require('bluebird');
 var co = Promise.coroutine;
 var trim = require('trim');
-var url = require('url');
+var Url = require('url');
 var qs = require('querystring');
+var capitalize = require('capitalize');
 
 /**
  * Scrapes the page at the given URL, and returns an object {cards, numPages} where cards is an array of card objects
@@ -31,8 +32,8 @@ function scrapeSearchPage(pageUrl) {
 
             //Just scrape the database URL and the image for now
             var card = {
-                url: url.resolve(SCRAPE_URL, $card.find("a").attr("href")),
-                image: url.resolve(SCRAPE_URL, $card.find("img").attr("src"))
+                url: Url.resolve(SCRAPE_URL, $card.find("a").attr("href")),
+                image: Url.resolve(SCRAPE_URL, $card.find("img").attr("src"))
             };
 
             cards.push(card);
@@ -66,6 +67,14 @@ function scrapeEnergies(el, $, func) {
     });
 }
 
+/**
+ * Removes newlines from and trims a string
+ * @param str
+ */
+function formatText(str){
+    return trim(str.replace(/\r?\n|\r/, " "));
+}
+
 function scrapeCard(url) {
 
     return co(function *() {
@@ -80,19 +89,46 @@ function scrapeCard(url) {
 
         //Scrape the type and HP
         var $basicInfo = $(".card-basic-info");
-        card.type = trim($basicInfo.find(".card-type").text());
 
-        //If it's a trainer or anything non-pokemon
-        if (card.type.indexOf("Trainer") != -1 || card.type.indexOf("Energy") != -1) {
-            card.text = trim($(".pokemon-abilities").text());
+        //Scrape the type and evolution
+        var $type = $basicInfo.find(".card-type");
+        card.type = $type.find("h2").text();
+        if (card.type.indexOf("Trainer") != -1)
+            card.superType = "Trainer";
+        else if (card.type.indexOf("Energy") != -1)
+            card.superType = "Energy";
+        else if (card.type.indexOf("Pokémon") != -1)
+            card.superType = "Pokémon";
+
+        //If it's a trainer or anything non-pokemon, just scrape the text
+        if (card.superType == "Trainer" || card.superType == "Energy") {
+            card.text = formatText($(".pokemon-abilities").text());
             return;
         }
+
+        var $evolved_from = $type.find("h4");
+        if ($evolved_from.length > 0)
+            card.evolvesFrom = trim($evolved_from.find("a").text());
 
         var hp_text = $basicInfo.find(".card-hp").text();
         card.hp = parseInt(/\d+/.exec(hp_text)[0]);
 
+        var colourUrl = $basicInfo.find(".right>a").attr("href");
+        var queryString = Object.keys(Url.parse(colourUrl, true).query)[0];
+        card.color = capitalize(/card-(.*)/.exec(queryString)[1]);
+
+        //Scrape the passive ability/poke body/poke power if they have one
+        var passive_name = $(".pokemon-abilities h3");
+        if (passive_name.length > 0 && passive_name.next()[0].name == "p")
+        {
+            card.passive = {
+                name: passive_name.find("div:last-child").text(),
+                text: formatText(passive_name.next().text())
+            };
+        }
+
         //Scrape each ability sequentially
-        card.abilities = [];
+         card.abilities = [];
         var $abilities = $(".pokemon-abilities .ability");
         $abilities.each(function (i, el) {
             var ability = {
@@ -117,7 +153,7 @@ function scrapeCard(url) {
 
             //Scrape the ability text
             var $text = $ability.find(">p");
-            ability.text = $text.text();
+            ability.text = formatText($text.text());
 
             //Add it to the card
             card.abilities.push(ability);
@@ -177,7 +213,7 @@ function scrapeAll(query, scrapeDetails) {
         process.stdout.write('Scraping card URLs...\n');
         for (i = 2; i <= search.numPages; i++) {
             process.stdout.write('   Scraping page ' + i + '...');
-            var scrapeURL = url.resolve(SCRAPE_URL, i.toString()) + qs.stringify(query);
+            var scrapeURL = Url.resolve(SCRAPE_URL, i.toString()) + qs.stringify(query);
             var results = yield scrapeSearchPage(scrapeURL);
             cards = cards.concat(results.cards);
             process.stdout.write('Done!\n');

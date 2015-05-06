@@ -1,5 +1,6 @@
 var scraper = require("./index");
 var assert = require("assert");
+var Promise = require('bluebird');
 
 describe("scrapeSearchPage", function () {
 
@@ -21,6 +22,22 @@ describe("scrapeCard", function () {
             assert(card.name == "Snivy");
             assert(card.hp == 60);
             assert(card.abilities[0].name == "Slam");
+            done();
+        });
+    });
+
+    it("Correctly scrapes pokemon abilities", function (done) {
+        var toScrape = [
+            'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bw7/31/',
+            'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/diamond-pearl-series/dp3/2/',
+            'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ex-series/ex14/14/',
+            'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ex-series/ex6/104/'].map(function (url) {
+                return scraper.scrapeCard(url);
+            });
+
+        Promise.all(toScrape).map(function(card) {
+            assert("passive" in card);
+        }).then(function () {
             done();
         });
     });
