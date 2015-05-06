@@ -9,8 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/TMiguelT/pokemontcgscraper"
+    "url": "https://github.com/TMiguelT/pokemontcgscraper"
   },
+  "tags":["pokemon", "scraper", "cards"],
   "author": "",
   "license": "ISC",
   "dependencies": {

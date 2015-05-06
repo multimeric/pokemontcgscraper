@@ -94,28 +94,28 @@ If the scraper encounters a pokemon card, it outputs objects with the following 
  * `color`: The card's colour, e.g. "Water",
  * `passive`:  The card's passive ability (Ability, Pokemon Power, Poke Body etc.) Contains a `name` and `text` field.
  e.g.
- ```json
- {
-        "name": "Deluge",
-        "text": "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon."
+```json
+{
+    "name": "Deluge",
+    "text": "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon."
 },
-    ```
+```
  * `abilities` An array of abilities, consisting of `cost`, `name`, `damage`, and `text`. E.g.
-  ```json
-  [
-        {
-            "cost": [
-                "Colorless",
-                "Colorless",
-                "Colorless",
-                "Colorless"
-            ],
-            "name": "Hydro Pump",
-            "damage": "60+",
-            "text": "Does 10 more damage for each Water Energy attached to this Pokémon."
-        }
-    ],
-    ```
+```json
+[
+    {
+        "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "name": "Hydro Pump",
+        "damage": "60+",
+        "text": "Does 10 more damage for each Water Energy attached to this Pokémon."
+    }
+]
+```
  * `weaknesses` An object with `type` and `value` fields indicating the Pokemon's weakness. E.g.
  ```json
  [
@@ -125,7 +125,6 @@ If the scraper encounters a pokemon card, it outputs objects with the following 
         }
 ]
 ```
-
  * `resistances` An array containing a list of weaknesses with the `type` and `value` fields. E.g.
    ```json
     [
