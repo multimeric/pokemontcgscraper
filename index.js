@@ -1,7 +1,7 @@
 "use strict";
 
 //Constants
-var SCRAPE_URL = "http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/?";
+var SCRAPE_URL = "http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/";
 
 //Requires
 var request = require('request-promise');
@@ -12,6 +12,11 @@ var trim = require('trim');
 var Url = require('url');
 var qs = require('querystring');
 var capitalize = require('capitalize');
+var _ = require('lodash');
+
+function makeUrl(url, query) {
+    return url + "?" + qs.stringify(query);
+}
 
 /**
  * Scrapes the page at the given URL, and returns an object {cards, numPages} where cards is an array of card objects
@@ -40,7 +45,7 @@ function scrapeSearchPage(pageUrl) {
         }));
 
         //Work out how many pages in total there are
-        var totalText = $('#cards-load-more span').text();
+        var totalText = $('#cards-load-more>div>span').text();
         var numPages = parseInt(/\d of (\d+)/.exec(totalText)[1]);
 
         return {
@@ -71,7 +76,7 @@ function scrapeEnergies(el, $, func) {
  * Removes newlines from and trims a string
  * @param str
  */
-function formatText(str){
+function formatText(str) {
     return trim(str.replace(/\r?\n|\r/, " "));
 }
 
@@ -113,14 +118,9 @@ function scrapeCard(url) {
         var hp_text = $basicInfo.find(".card-hp").text();
         card.hp = parseInt(/\d+/.exec(hp_text)[0]);
 
-        var colourUrl = $basicInfo.find(".right>a").attr("href");
-        var queryString = Object.keys(Url.parse(colourUrl, true).query)[0];
-        card.color = capitalize(/card-(.*)/.exec(queryString)[1]);
-
         //Scrape the passive ability/poke body/poke power if they have one
         var passive_name = $(".pokemon-abilities h3");
-        if (passive_name.length > 0 && passive_name.next()[0].name == "p")
-        {
+        if (passive_name.length > 0 && passive_name.next()[0].name == "p") {
             card.passive = {
                 name: passive_name.find("div:last-child").text(),
                 text: formatText(passive_name.next().text())
@@ -128,24 +128,31 @@ function scrapeCard(url) {
         }
 
         //Scrape each ability sequentially
-         card.abilities = [];
+        card.abilities = [];
+        card.rules = []; //Rules are things like the EX rule
         var $abilities = $(".pokemon-abilities .ability");
         $abilities.each(function (i, el) {
+            var $ability = $(el);
             var ability = {
                 cost: []
             };
 
+            //Scrape the ability name
+            var $name = $ability.find("h4.left");
+            //If there is no name, it's a rule
+            if ($name.length == 0) {
+                card.rules.push(formatText($ability.text()));
+                return;
+            }
+            ability.name = $name.text();
+
+
             //Scrape the cost
-            var $ability = $(el);
             var $energies = $ability.find("ul.left li");
             $energies.each(function (i, energy) {
                 var $energy = $(energy);
                 ability.cost.push($energy.attr("title"));
             });
-
-            //Scrape the ability name
-            var $name = $ability.find("h4.left");
-            ability.name = $name.text();
 
             //Scrape the ability damage
             var $damage = $ability.find("span.right.plus");
@@ -158,6 +165,30 @@ function scrapeCard(url) {
             //Add it to the card
             card.abilities.push(ability);
         });
+
+        //Scrape the colour
+        var colourUrl = $basicInfo.find(".right>a").attr("href");
+        if (colourUrl) {
+            var queryString = Object.keys(Url.parse(colourUrl, true).query)[0];
+            card.color = capitalize(/card-(.*)/.exec(queryString)[1]);
+        }
+        //If no colour icon is present, try to guess it from the abilities
+        else {
+            //An array of energy:count pairs
+            var pairs = _.chain(card.abilities)
+                .map("cost")
+                .flatten()
+                .countBy(function (energy) {
+                    return energy;
+                }).pairs()
+                .value();
+
+            card.color = _.chain(pairs)
+                .max(function (pair) {
+                    return pair[1];
+                })
+                .value()[0];
+        }
 
         //Scrape the other stats
         var $stats = $(".pokemon-stats");
@@ -201,7 +232,7 @@ function scrapeAll(query, scrapeDetails) {
 
         //Load the HTML page
         process.stdout.write("Scraping initial page...");
-        var scrapeURL = SCRAPE_URL + qs.stringify(query);
+        var scrapeURL = makeUrl(SCRAPE_URL, query);
         var search = yield scrapeSearchPage(scrapeURL);
         process.stdout.write("Done!\n");
 
@@ -213,7 +244,7 @@ function scrapeAll(query, scrapeDetails) {
         process.stdout.write('Scraping card URLs...\n');
         for (i = 2; i <= search.numPages; i++) {
             process.stdout.write('   Scraping page ' + i + '...');
-            var scrapeURL = Url.resolve(SCRAPE_URL, i.toString()) + qs.stringify(query);
+            var scrapeURL = makeUrl(Url.resolve(SCRAPE_URL, i.toString()), query);
             var results = yield scrapeSearchPage(scrapeURL);
             cards = cards.concat(results.cards);
             process.stdout.write('Done!\n');

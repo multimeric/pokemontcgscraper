@@ -26,6 +26,15 @@ describe("scrapeCard", function () {
         });
     });
 
+    it("Handles mega EXs", function (done) {
+        scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/2/").then(function (card) {
+            assert(card.name == "M Venusaur-EX");
+            assert(card.hp == 230);
+            assert(card.abilities[0].name == "Crisis Vine");
+            done();
+        });
+    });
+
     it("Correctly scrapes pokemon abilities", function (done) {
         var toScrape = [
             'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bw7/31/',
