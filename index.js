@@ -108,7 +108,7 @@ function scrapeCard(url) {
         //If it's a trainer or anything non-pokemon, just scrape the text
         if (card.superType == "Trainer" || card.superType == "Energy") {
             card.text = formatText($(".pokemon-abilities").text());
-            return;
+            return card;
         }
 
         var $evolved_from = $type.find("h4");
@@ -256,7 +256,7 @@ function scrapeAll(query, scrapeDetails) {
             for (i = 0; i < cards.length; i++) {
                 var card = cards[i];
                 process.stdout.write('   Scraping card ' + card.url);
-                yield scrapeCard(card);
+                _.assign(card, yield scrapeCard(card));
                 process.stdout.write('Done!\n')
             }
         }

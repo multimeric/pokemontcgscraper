@@ -16,7 +16,17 @@ describe("scrapeSearchPage", function () {
 
 describe("scrapeCard", function () {
 
-    it("Correctly scrapes single cards", function (done) {
+    it("Correctly scrapes trainers", function (done) {
+        //Scrape N
+        scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW100/").then(function (card) {
+            assert(card.name == "N");
+            assert(card.text.indexOf ("Prize cards" != -1));
+            done();
+        });
+
+    });
+
+    it("Correctly scrapes pokemon", function (done) {
         //Scrape Snivy
         scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW01/").then(function (card) {
             assert(card.name == "Snivy");
@@ -35,7 +45,7 @@ describe("scrapeCard", function () {
         });
     });
 
-    it("Correctly scrapes pokemon abilities", function (done) {
+    it("Correctly scrapes different types of pokemon abilities", function (done) {
         var toScrape = [
             'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bw7/31/',
             'http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/diamond-pearl-series/dp3/2/',
@@ -54,12 +64,12 @@ describe("scrapeCard", function () {
 
 describe("scrapeAll", function () {
 
-    it("scrapes the entire pokemon database", function (done) {
+    it("scrapes multi page queries", function (done) {
         scraper.scrapeAll({
-            cardText: "Victory Star"
-        }).then(function (cards) {
+            cardName: "saur"
+        }, false).then(function (cards) {
             assert(Array.isArray(cards));
-            assert(cards.length >= 4);
+            assert(cards.length >= 24);
             done();
         });
     });
