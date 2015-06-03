@@ -24,39 +24,40 @@ This will print the following:
 
 ```json
 {
-   "name":"Blastoise",
-   "type":"Stage 2 Pokémon",
-   "superType":"Pokémon",
-   "evolvesFrom":"Wartortle",
-   "hp":140,
-   "color":"Water",
-   "passive":{
-      "name":"Deluge",
-      "text":"As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon."
-   },
-   "abilities":[
-      {
-         "cost":[
-            "Colorless",
-            "Colorless",
-            "Colorless",
-            "Colorless"
-         ],
-         "name":"Hydro Pump",
-         "damage":"60+",
-         "text":"Does 10 more damage for each Water Energy attached to this Pokémon."
-      }
-   ],
-   "weaknesses":[
-      {
-         "type":"Grass",
-         "value":"×2"
-      }
-   ],
-   "resistances":[
-
-   ],
-   "retreatCost":4
+    "id": "bw7/31",
+    "name": "Blastoise",
+    "image": "http://assets21.pokemon.com/assets/cms2/img/cards/web/BW7/BW7_EN_31.png",
+    "type": "Stage 2 Pokémon",
+    "superType": "Pokémon",
+    "evolvesFrom": "Wartortle",
+    "hp": 140,
+    "passive": {
+        "name": "Deluge",
+        "text": "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon."
+    },
+    "abilities": [
+        {
+            "cost": [
+                "Colorless",
+                "Colorless",
+                "Colorless",
+                "Colorless"
+            ],
+            "name": "Hydro Pump",
+            "damage": "60+",
+            "text": "Does 10 more damage for each Water Energy attached to this Pokémon."
+        }
+    ],
+    "rules": [],
+    "color": "Water",
+    "weaknesses": [
+        {
+            "type": "Grass",
+            "value": "×2"
+        }
+    ],
+    "resistances": [],
+    "retreatCost": 4
 }
 ```
 
@@ -86,6 +87,8 @@ used internally but it can also be useful for scraping specific cards.
 
 If the scraper encounters a pokemon card, it outputs objects with the following fields
 
+ * `id`: The unique identifier used by pokemon.com for this card based on the card's set, e.g. "bw7/31",
+ * `image`: The image URL for the card on pokemon.com, e.g. "http://assets21.pokemon.com/assets/cms2/img/cards/web/BW7/BW7_EN_31.png",
  * `name`: The pokemon's name, e.g. "Blastoise",
  * `type`: The specific of card, e.g. "Stage 2 Pokémon",
  * `superType`: The general type of card, e.g. "Pokémon",

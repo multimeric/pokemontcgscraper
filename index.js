@@ -18,6 +18,10 @@ function makeUrl(url, query) {
     return url + "?" + qs.stringify(query);
 }
 
+function cardIdFromUrl(url){
+   return url.match(new RegExp("/(\\w+/\\w+)/$"))[1];
+}
+
 /**
  * Scrapes the page at the given URL, and returns an object {cards, numPages} where cards is an array of card objects
  * and numPages is the number of pages returned from this query
@@ -36,9 +40,11 @@ function scrapeSearchPage(pageUrl) {
             var $card = $(el);
 
             //Just scrape the database URL and the image for now
+            var url = Url.resolve(SCRAPE_URL, $card.find("a").attr("href"));
             var card = {
-                url: Url.resolve(SCRAPE_URL, $card.find("a").attr("href")),
-                image: Url.resolve(SCRAPE_URL, $card.find("img").attr("src"))
+                url: url,
+                image: Url.resolve(SCRAPE_URL, $card.find("img").attr("src")),
+                id: cardIdFromUrl(url)
             };
 
             cards.push(card);
@@ -88,12 +94,19 @@ function scrapeCard(url) {
         //Load the HTML page from the URL
         var $ = cheerio.load(yield request(url));
 
+        //Add the ID because we don't need the actual page for that
+        card.id = cardIdFromUrl(url);
+
         //Scrape the card name
         var $header = $(".card-description");
         card.name = $header.find("h1").text();
 
         //Scrape the type and HP
         var $basicInfo = $(".card-basic-info");
+
+        //Scrape the image
+        var $img = $(".card-image>img");
+        card.image = Url.resolve(url, $img.attr('src'));
 
         //Scrape the type and evolution
         var $type = $basicInfo.find(".card-type");

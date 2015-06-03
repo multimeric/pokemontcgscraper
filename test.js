@@ -12,6 +12,17 @@ describe("scrapeSearchPage", function () {
             done();
         });
     });
+
+    //Scrape a search page with just a Snivy on it
+    it("Returns name, image, and id", function (done) {
+        scraper.scrapeSearchPage("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/?cardName=snivy&cardText=slam").then(function (page) {
+            var card = page.cards[0];
+            assert(card.url == "http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW01/");
+            assert(card.image == "http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW01.png");
+            assert(card.id == "bwp/BW01");
+            done();
+        });
+    });
 });
 
 describe("scrapeCard", function () {
@@ -20,7 +31,7 @@ describe("scrapeCard", function () {
         //Scrape N
         scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW100/").then(function (card) {
             assert(card.name == "N");
-            assert(card.text.indexOf ("Prize cards" != -1));
+            assert(card.text.indexOf("Prize cards" != -1));
             done();
         });
 
@@ -32,6 +43,8 @@ describe("scrapeCard", function () {
             assert(card.name == "Snivy");
             assert(card.hp == 60);
             assert(card.abilities[0].name == "Slam");
+            assert(card.image == "http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW01.png");
+            assert(card.id == "bwp/BW01");
             done();
         });
     });
@@ -54,7 +67,7 @@ describe("scrapeCard", function () {
                 return scraper.scrapeCard(url);
             });
 
-        Promise.all(toScrape).map(function(card) {
+        Promise.all(toScrape).map(function (card) {
             assert("passive" in card);
         }).then(function () {
             done();
