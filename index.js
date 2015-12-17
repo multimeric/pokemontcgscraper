@@ -269,7 +269,7 @@ function scrapeAll(query, scrapeDetails) {
             for (i = 0; i < cards.length; i++) {
                 var card = cards[i];
                 process.stdout.write('   Scraping card ' + card.url);
-                _.assign(card, yield scrapeCard(card));
+                _.assign(card, yield scrapeCard(card.url));
                 process.stdout.write('Done!\n')
             }
         }
