@@ -113,7 +113,7 @@ describe("scrapeAll", function () {
 
         	//At least one of the '*saur' pokemon should have Vine Whip
             assert(cards.some(function(saur){
-        		saur.abilities.some(function(attack){
+        		return saur.abilities.some(function(attack){
         			return attack.name == "Vine Whip";
         		});
             }));
