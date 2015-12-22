@@ -1,7 +1,7 @@
 {
   "name": "pokemon-tcg-scraper",
   "version": "0.0.4",
-  "description": "",
+  "description": "Scrapes the official pokemon.com TCG database",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
