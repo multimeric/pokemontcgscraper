@@ -1,5 +1,7 @@
 # Pokemon TCG Scraper
 
+[![Build Status](https://travis-ci.org/TMiguelT/pokemontcgscraper.svg?branch=master)](https://travis-ci.org/TMiguelT/pokemontcgscraper)
+
 ## Introduction
 
 The pokemon TCG scraper does what you'd expect - it scrapes the official pokemon.com TCG database. The resulting data
