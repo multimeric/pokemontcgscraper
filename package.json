@@ -4,7 +4,7 @@
   "description": "Scrapes the official pokemon.com TCG database",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "echo \"Error: pokemon-tcg-scraper cannot be run as executable\" && exit 1",
     "test": "mocha test.js"
   },
   "repository": {
