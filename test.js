@@ -1,3 +1,4 @@
+#!/usr/bin/env node --harmony
 var scraper = require("./index");
 var assert = require("assert");
 var Promise = require('bluebird');
