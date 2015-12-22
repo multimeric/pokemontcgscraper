@@ -20,7 +20,7 @@ function makeUrl(url, query) {
 }
 
 function cardIdFromUrl(url){
-   return url.match(new RegExp("/(\\w+/\\w+)/$"))[1];
+   return Url.match(new RegExp("/(\\w+/\\w+)/$"))[1];
 }
 
 /**
