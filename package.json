@@ -16,7 +16,7 @@
     "scraper",
     "cards"
   ],
-  "author": "",
+  "author": "TMiguelT",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^2.9.25",
