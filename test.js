@@ -10,6 +10,8 @@ describe("scrapeSearchPage", function () {
             assert(page.numPages > 400);
             assert(page.cards.length >= 12);
             done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 
@@ -21,6 +23,8 @@ describe("scrapeSearchPage", function () {
             assert(card.image == "http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW01.png");
             assert(card.id == "bwp/BW01");
             done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 });
@@ -33,6 +37,8 @@ describe("scrapeCard", function () {
             assert(card.name == "N");
             assert(card.text.indexOf("Prize cards" != -1));
             done();
+        }).catch(function(err){
+        	done(err);
         });
 
     });
@@ -46,6 +52,8 @@ describe("scrapeCard", function () {
             assert(card.image == "http://assets21.pokemon.com/assets/cms2/img/cards/web/BWP/BWP_EN_BW01.png");
             assert(card.id == "bwp/BW01");
             done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 
@@ -55,6 +63,8 @@ describe("scrapeCard", function () {
             assert(card.hp == 230);
             assert(card.abilities[0].name == "Crisis Vine");
             done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 
@@ -71,6 +81,8 @@ describe("scrapeCard", function () {
             assert("passive" in card);
         }).then(function () {
             done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 });
@@ -78,12 +90,35 @@ describe("scrapeCard", function () {
 describe("scrapeAll", function () {
 
     it("scrapes multi page queries", function (done) {
+    	this.timeout(0);
+
         scraper.scrapeAll({
             cardName: "saur"
         }, false).then(function (cards) {
             assert(Array.isArray(cards));
             assert(cards.length >= 24);
             done();
+        }).catch(function(err){
+        	done(err);
+        });
+    });
+
+    it("scrapes card details when scrapeDetails is true", function (done) {
+    	this.timeout(0);
+
+        scraper.scrapeAll({
+            cardName: "saur"
+        }, true).then(function (cards) {
+
+        	//At least one of the '*saur' pokemon should have Vine Whip
+            assert(cards.some(function(saur){
+        		saur.abilities.some(function(attack){
+        			return attack.name == "Vine Whip";
+        		});
+            }));
+            done();
+        }).catch(function(err){
+        	done(err);
         });
     });
 });
