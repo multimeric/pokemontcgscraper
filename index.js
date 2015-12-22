@@ -263,7 +263,7 @@ function scrapeAll(query, scrapeDetails) {
         if (scrapeDetails) {
             for (i = 0; i < cards.length; i++) {
                 var card = cards[i];
-                _.assign(card, yield scrapeCard(card));
+                _.assign(card, yield scrapeCard(card.url));
             }
         }
 
