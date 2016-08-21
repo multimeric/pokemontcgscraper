@@ -19,11 +19,11 @@
   "author": "TMiguelT",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^2.9.25",
+    "bluebird": "^2.10.2",
     "capitalize": "^0.5.0",
     "cheerio": "^0.19.0",
-    "lodash": "^3.8.0",
-    "request-promise": "^0.4.2",
+    "lodash": "^3.10.1",
+    "request-promise": "^0.4.3",
     "trim": "0.0.1"
   },
   "devDependencies": {
