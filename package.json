@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "echo \"Error: pokemon-tcg-scraper cannot be run as executable\" && exit 1",
-    "test": "mocha test.js --harmony"
+    "test": "mocha test.js --harmony --no-timeouts"
   },
   "repository": {
     "type": "git",

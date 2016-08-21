@@ -89,8 +89,6 @@ describe("scrapeCard", () => {
 describe("scrapeAll", function () {
 
     it("scrapes multi page queries", function *() {
-        this.timeout(0);
-
         const cards = yield scraper.scrapeAll({
             cardName: "saur"
         }, false);
@@ -99,9 +97,7 @@ describe("scrapeAll", function () {
     });
 
     it("scrapes card details when scrapeDetails is true", function *() {
-        this.timeout(0);
-
-        const cards = scraper.scrapeAll({
+        const cards = yield scraper.scrapeAll({
             cardName: "saur"
         }, true);
 
