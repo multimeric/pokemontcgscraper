@@ -90,6 +90,7 @@ function scrapeCard(url) {
 
         //Load the HTML page from the URL
         const $ = cheerio.load(yield request(url));
+        const $stats = $(".pokemon-stats");
 
         //Add the ID because we don't need the actual page for that
         card.id = cardIdFromUrl(url);
@@ -114,6 +115,11 @@ function scrapeCard(url) {
             card.superType = "Energy";
         else if (card.type.indexOf("Pokémon") != -1)
             card.superType = "Pokémon";
+
+        card.set = {
+            name: $stats.find("h3").text(),
+            url: Url.resolve(SCRAPE_URL, $stats.find("h3 > a").attr("href"))
+        };
 
         //If it's a trainer or anything non-pokemon, just scrape the text
         if (card.superType == "Trainer" || card.superType == "Energy") {
@@ -201,7 +207,6 @@ function scrapeCard(url) {
         }
 
         //Scrape the other stats
-        const $stats = $(".pokemon-stats");
 
         card.weaknesses = [];
         const $weakness = $stats.find(".stat:contains(Weakness)");
@@ -223,11 +228,6 @@ function scrapeCard(url) {
 
         const $retreat = $stats.find(":contains(Retreat Cost)");
         card.retreatCost = $retreat.find(".energy").length;
-
-        card.set = {
-          name: $stats.find("h3").text(),
-          url: Url.resolve(SCRAPE_URL, $stats.find("h3 > a").attr("href"))
-        };
 
         return card;
     })();

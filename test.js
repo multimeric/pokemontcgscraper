@@ -46,6 +46,7 @@ describe("scrapeCard", () => {
         //Scrape N
         const card = yield scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW100/");
         assert(card.name == "N");
+        assert(card.set.name == "BW—Promo");
         assert(card.text.includes("Prize cards"));
     });
 
@@ -54,6 +55,7 @@ describe("scrapeCard", () => {
         const card = yield scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/bw-series/bwp/BW01/");
         assert(card.name == "Snivy");
         assert(card.hp == 60);
+        assert(card.set.name == "BW—Promo");
         assert(card.abilities[0].name == "Slam");
         //Check the image
         const imgResp = yield request({
@@ -68,6 +70,7 @@ describe("scrapeCard", () => {
         const card = yield scraper.scrapeCard("http://www.pokemon.com/us/pokemon-tcg/pokemon-cards/xy-series/xy1/2/");
         assert(card.name == "M-Venusaur-EX");
         assert(card.hp == 230);
+        assert(card.set.name == "XY");
         assert(card.abilities[0].name == "Crisis Vine");
     });
 
