@@ -224,6 +224,11 @@ function scrapeCard(url) {
         const $retreat = $stats.find(":contains(Retreat Cost)");
         card.retreatCost = $retreat.find(".energy").length;
 
+        card.set = {
+          name: $stats.find("h3").text(),
+          url: Url.resolve(SCRAPE_URL, $stats.find("h3 > a").attr("href"))
+        };
+
         return card;
     })();
 }
