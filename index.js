@@ -48,7 +48,12 @@ function scrapeSearchPage(pageUrl) {
 
         //Work out how many pages in total there are
         const totalText = $('#cards-load-more>div>span').text();
-        const numPages = parseInt(/\d of (\d+)/.exec(totalText)[1]);
+        //Check if there's no result.
+        if(totalText){
+            const numPages = parseInt(/\d of (\d+)/.exec(totalText)[1]);
+        }else{
+            const numPages = 0;
+        }
 
         return {
             numPages: numPages,
@@ -248,6 +253,11 @@ function scrapeAll(query, scrapeDetails) {
         //Load the HTML page
         const scrapeURL = makeUrl(SCRAPE_URL, query);
         const search = yield scrapeSearchPage(scrapeURL);
+
+        //Check if there's no result
+        if(!search.numPages){
+            return 0;
+        }
 
         //Recurring variables
         var cards = search.cards;
