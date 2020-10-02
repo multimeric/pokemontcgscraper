@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/TMiguelT/pokemontcgscraper.svg?branch=master)](https://travis-ci.org/TMiguelT/pokemontcgscraper)
 
-## Introduction
+## Introduction to TCG Scrapper
 
 The pokemon TCG scraper does what you'd expect - it scrapes the official pokemon.com TCG database. The resulting data
 can be used to populate databases, make calculations, or any other purpose.
